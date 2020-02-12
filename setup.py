@@ -18,7 +18,9 @@ def main():
 		'packages': ['greenlight'],
 		'scripts': [],
 		'entry_points': {
-		    'console_scripts': [],
+		    'console_scripts': [
+		        'waitfor=greenlight.waitfor:console_script'
+		    ],
 		},
 		'name': 'greenlight',
 	}
